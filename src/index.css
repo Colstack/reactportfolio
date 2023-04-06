@@ -11,6 +11,19 @@
   --sm-spacing: 30px;
 }
 
+/* --- ANIMATIONS --- */
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(1%);
+    opacity: 1;
+  }
+}
+
 /* --- RESETS --- */
 
 * {
@@ -72,3 +85,133 @@ body {
   background-color: #03b979;
 }
 
+/* --- MOBILE STYLES --- */
+
+/* --- HEADER ---  */
+header {
+  padding: var(--sm-spacing) var(--spacing);
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.links {
+  display: none;
+  position: absolute;
+  top: 93px;
+  right: 0px;
+  background-color: var(--bg-color);
+  width: 100%;
+  padding: 10px;
+  z-index: 999;
+  border-radius: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.links a:hover {
+  color: white;
+}
+
+.links.open {
+  display: block;
+  animation: slideDown 0.5s ease-in-out forwards;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.openMenu,
+.closeMenu {
+  height: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.closeMenu {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.links .closed {
+  background-color: transparent;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (min-width: 750px) {
+  .links {
+    display: flex;
+    background-color: var(--bg-color);
+    justify-content: flex-end;
+    position: relative;
+    top: auto;
+    width: 0;
+    left: 0;
+    padding: 0 10px;
+  }
+
+  .links a {
+    padding: 0px;
+    margin-left: 3px;
+  }
+
+  .links a:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .links.open {
+    display: flex;
+  }
+
+  .dropdown-toggle {
+    display: none;
+  }
+
+  .links a:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-in-out;
+  }
+
+  .links a:hover:before {
+    width: 100%;
+  }
+
+  .links a.active:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-in-out;
+    width: 100%;
+  }
+
+  .closed {
+    background-color: transparent;
+  }
+}

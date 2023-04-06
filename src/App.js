@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import LinkRoutes from "./components/LinkRoutes";
 
 function App() {
   const personalDetails = {
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Header />
+      <LinkRoutes personalDetails={personalDetails} />
     </>
   );
 }
