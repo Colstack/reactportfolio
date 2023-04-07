@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
-/* --- VARIABLES --- */
+/* Variables */
 :root {
-  --bg-color: #101010;
+  --bg-color: #222222;
   --hl-color: #009e66;
   --text-color: #f3f3f3;
-  --secondary-text-color: #9f9f9f;
-  --grey: #9f9f9f76;
+  --secondary-text-color: #d6d6d6;
+  --grey: #cfcfcfc5;
   --spacing: 50px;
   --sm-spacing: 30px;
 }
 
-/* --- ANIMATIONS --- */
+/* Animations */
 
 @keyframes slideDown {
   0% {
@@ -24,7 +24,7 @@
   }
 }
 
-/* --- RESETS --- */
+/* Resets */
 
 * {
   margin: 0;
@@ -43,7 +43,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* --- GLOBAL STYLES --- */
+/* Global */
 
 ::selection {
   background-color: var(--hl-color);
@@ -87,7 +87,7 @@ body {
 
 /* --- MOBILE STYLES --- */
 
-/* --- HEADER ---  */
+/* Header  */
 header {
   padding: var(--sm-spacing) var(--spacing);
   color: var(--text-color);
@@ -109,7 +109,6 @@ header {
   z-index: 999;
   border-radius: 10px;
 }
-
 
 .links a {
   text-decoration: none;
@@ -152,7 +151,7 @@ header {
   background-color: transparent;
 }
 
-/* --- MEDIA QUERIES --- */
+/* Media Queries */
 @media (min-width: 750px) {
   .links {
     display: flex;
