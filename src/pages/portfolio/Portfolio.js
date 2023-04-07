@@ -7,11 +7,11 @@ const Portfolio = () => {
     projectData.map((project, i) => (
         <Project 
         key={i}
-        id={project.title}
+        id={project.id}
         title={project.title}
         technology={project.technology}
         image={project.image}
-        color={project.bcolor}
+        color={project.bgcolor}
         github={project.github}
         deployed={project.deployed}
         description={project.description}
