@@ -15,6 +15,15 @@
     padding: 10px;
   }
   
+  .personalInfo {
+  margin: 0 auto;
+  text-align: left;
+  }
+
+  .availability {
+    text-align: right;
+  }
+  
   .contentContainer h4 {
     color: var(--hl-color);
     font-size: 18px;

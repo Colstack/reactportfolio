@@ -1,0 +1,14 @@
+[
+    {
+      "title": "PetFriends",
+      "image": "./projectImages/PetFriends.png",
+      "description": "A unique website to find the pet of your dreams!",
+      "technologies": "HTML, CSS, JavaScript, APIs",
+      "github": "https://github.com/ColtonTO/PetFriends",
+      "deployed": "https://coltonto.github.io/PetFriends/",
+      "bgcolor": "#f37737",
+      "id": "1"
+    }
+
+  ]
+  

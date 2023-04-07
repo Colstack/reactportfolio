@@ -92,7 +92,7 @@ header {
   padding: var(--sm-spacing) var(--spacing);
   color: var(--text-color);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin-left: 10px;
 }
@@ -103,15 +103,13 @@ header {
 
 .links {
   display: none;
-  position: absolute;
-  top: 93px;
-  right: 0px;
   background-color: var(--bg-color);
   width: 100%;
   padding: 10px;
   z-index: 999;
   border-radius: 10px;
 }
+
 
 .links a {
   text-decoration: none;
@@ -169,7 +167,7 @@ header {
 
   .links a {
     padding: 0px;
-    margin-left: 3px;
+    margin-right: 10px;
   }
 
   .links a:not(:last-child) {
