@@ -38,10 +38,10 @@ const Landing = ({ name }) => {
                     className="description"
                     onInit={(typewriter) => {
                         typewriter 
-                        .typeString("I'm a web developer")
+                        .typeString("I'm a <span style='color: #009e66'>Web Developer</span>")
                         .pauseFor(1500)
                         .deleteChars(13)
-                        .typeString("Software Engineer")
+                        .typeString("<span style='color: #009e66'>Software Engineer</span>")
                         .pauseFor(1500)
                         .deleteAll()
                         .typeString("Turning your ideas into reality!")

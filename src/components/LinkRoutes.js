@@ -19,6 +19,8 @@ const LinkRoutes = ({ personalDetails }) => {
             email={personalDetails.email}
             availability={personalDetails.availability}
             brand={personalDetails.brand}
+            expertise={personalDetails.expertise}
+            collaboration={personalDetails.collaboration}
           />
         }
       />

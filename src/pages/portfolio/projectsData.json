@@ -8,7 +8,26 @@
       "deployed": "https://coltonto.github.io/PetFriends/",
       "bgcolor": "#f37737",
       "id": "1"
+    },
+    {
+        "title": "SQL Employee Tracker",
+        "image": "./projectImages/sqltracker.png",
+        "description": "Back-end project that uses content management systems to allow non-developers to easily access and view information about employees stored in an SQL database",
+        "technologies": "SQL, Node, Express, JavaScript",
+        "github": " https://github.com/ColtonTO/SQL-Employee-Tracker",
+        "deployed": "",
+        "bgcolor": "#0C7489",
+        "id": "2"
+    },
+    {
+        "title": "Fitness Tracker",
+        "image": "./projectImages/workout.png",
+        "description": "Tracker app that utilizes authentication for users to create accounts and post workout information onto a blog-like website",
+        "technologies": "JavaScript, Custom API, Node, Express",
+        "github": "https://github.com/ColtonTO/Fitness_tracker",
+        "deployed": "",
+        "bgcolor": "#712F79",
+        "id": "2"
     }
-
   ]
   
