@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Landing from "../pages/landing/Landing";
 import About from "../pages/about/About";
 import Portfolio from "../pages/portfolio/Portfolio";
+import Contact from "../pages/contact/Contact"
 
 const LinkRoutes = ({ personalDetails }) => {
   const location = useLocation();
@@ -25,6 +26,12 @@ const LinkRoutes = ({ personalDetails }) => {
         }
       />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route
+        path="/contact"
+        element={
+          <Contact />
+        }
+      />
     </Routes>
   );
 };
