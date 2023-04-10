@@ -63,7 +63,7 @@ const AboutMe = ({ name, email, location, availability, brand, expertise, collab
                                     <span>Location:</span>
                                     <p>{location}</p>
                                 </div>
-                                <div className="col-12 col-md-6 info">
+                                <div className="col-12 col-md-6 availability info">
                                     <span>availability:</span>
                                     <p>{availability}</p>
                                 </div>
