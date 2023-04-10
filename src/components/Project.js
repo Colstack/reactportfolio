@@ -74,6 +74,7 @@ const Project = ({technology, title, image, color, id, github, deployed, descrip
                 </button>
                 </Modal>
         </motion.div>
+        
     );
 };
 

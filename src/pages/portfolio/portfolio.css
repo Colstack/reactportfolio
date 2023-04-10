@@ -91,6 +91,12 @@
   margin-bottom: 10px;
 }
 
+.landing .socialIcons {
+  position: absolute;
+  bottom: 20px;
+}
+
+
 /* --- MEDIA QUEIRES --- */
 
 @media (min-width: 750px) {

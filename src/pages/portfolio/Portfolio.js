@@ -1,6 +1,7 @@
 import projectData from "./projectsData.json";
 import Project from "../../components/Project"
 import PageHeader from "../../components/PageHeader"
+import SocialIcons from "../../components/SocialIcons";
 
 const Portfolio = () => {
     const ProjectList = () => 
@@ -24,6 +25,7 @@ const Portfolio = () => {
             <div className="row">
                 <ProjectList />
             </div>
+            <SocialIcons />
         </section>
     );
 };

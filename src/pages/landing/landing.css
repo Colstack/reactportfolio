@@ -16,9 +16,9 @@
   } */
   
   .landing .socialIcons {
-    display: flex;
+    /* display: flex; */
     position: absolute;
-    left: 50px;
+    /* left: 50px; */
     bottom: 20px;
   }
   
