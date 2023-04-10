@@ -56,10 +56,15 @@ const Form = () => {
   };
 
   return (
-<form
+<motion.form
   action=""
   ref={ref}
   className="contactForm"
+  style={{
+    transform: `translateX(${inView ? 0 : '-10vw'})`,
+    opacity: inView ? 1 : 0,
+    transition: 'transform 0.4s ease-in-out, opacity 0.4s ease-in-out'
+  }}
   onSubmit={handleSubmit}
 >
   <h4 className="contentTitle">Message Me</h4>
@@ -114,8 +119,7 @@ const Form = () => {
   <div className="col-12 formGroup formSubmit">
     <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
   </div>
-</form>
-
+</motion.form>
   );
 };
 
