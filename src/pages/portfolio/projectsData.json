@@ -28,6 +28,36 @@
         "deployed": "",
         "bgcolor": "#712F79",
         "id": "2"
-    }
+    },
+    {
+      "title": "Weather Dashboard",
+      "image": "./projectImages/weatherdashboard.png",
+      "description": "Weather dashboard that uses an API to give the weather for any location, 5 days in advance",
+      "technologies": "JavaScript, APIs, HTML, CSS",
+      "github": "https://github.com/ColtonTO/WeatherDashboard",
+      "deployed": "https://coltonto.github.io/WeatherDashboard/",
+      "bgcolor": "#138A36",
+      "id": "2"
+  },
+  {
+    "title": "Team Generator",
+    "image": "./projectImages/teamgeneratorpng.png",
+    "description": "Front-end Team Generator application that creates team members based on CLI prompts, and uses JEST to test components.",
+    "technologies": "JavaScript, Jest, HTML, CSS, Node, Express",
+    "github": "https://github.com/ColtonTO/TeamGenerator",
+    "deployed": "",
+    "bgcolor": "#E6F14A",
+    "id": "2"
+  },
+  {
+    "title": "Just Another Text Editor",
+    "image": "./projectImages/texteditor.png",
+    "description": "Just Another Text Editor is a Progressive Web Application that can be used on your browser or installed and used locally",
+    "technologies": "JavaScript, HTML, CSS, Express, Webpack",
+    "github": "https://github.com/ColtonTO/TeamGenerator",
+    "deployed": "",
+    "bgcolor": "#F7B2BD",
+    "id": "2"
+  }
   ]
   
