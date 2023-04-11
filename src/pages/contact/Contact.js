@@ -7,11 +7,9 @@ const Contact = ({}) => {
     <section className="contact">
       <PageHeader title="Contact" description="Get in touch" />
       <div className="contactWrap container">
-        <div className="row">
-          <div className="col-12 col-lg-6">
+        <div className="row rowCont">
+          <div className="col-12 col-lg-12">
             <Form />
-          </div>
-          <div className="col-12 col-lg-6">
           </div>
         </div>
       </div>

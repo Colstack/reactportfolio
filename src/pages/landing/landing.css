@@ -1,4 +1,4 @@
-/* --- MOBILE STYLES --- */
+/* Landing Styles */
 
 .landing .name {
     font-size: 48px;
@@ -11,18 +11,12 @@
     right: 0px;
   }
   
-  /* .landing .socialIcons {
-    display: none;
-  } */
-  
   .landing .socialIcons {
-    /* display: flex; */
     position: absolute;
-    /* left: 50px; */
     bottom: 20px;
   }
   
-  /* --- MEDIA QUERIES --- */
+  /* Media Queries */
   
   @media (min-width: 750px) {
     .landing .name {

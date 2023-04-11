@@ -117,7 +117,7 @@ const Form = () => {
     ></textarea>
   </div>
   <div className="col-12 formGroup formSubmit">
-    <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
+    <button className="btn messageBtn">{success ? "Message Sent" : "Send Message"}</button>
   </div>
 </motion.form>
   );
