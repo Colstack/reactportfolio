@@ -20,7 +20,7 @@ Hello there, thanks for visiting! This is my personal portfolio, made with React
 ## Screenshots 
 ![image](https://user-images.githubusercontent.com/116236745/231024074-effa6bfb-344d-41ba-8ca1-901155a604c5.png)
 ![image](https://user-images.githubusercontent.com/116236745/231024139-d6bb1df4-474f-4cfd-8b7f-baa1d6eae7c8.png)
-![image](https://user-images.githubusercontent.com/116236745/231024158-4c20d747-e204-4a87-a5aa-b63e97fc2190.png)
+![image](https://user-images.githubusercontent.com/116236745/231024353-a4615c57-beaa-48b7-99c3-7a75bd65b4a8.png)
 
 
 ## License 
