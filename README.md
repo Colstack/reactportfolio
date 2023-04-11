@@ -4,7 +4,7 @@
 
 # **Live link:** https://coltons-portfolio-58f23b.netlify.app
 
-## GitHub Pages Link: https://coltonto.github.io
+## GitHub Pages Link: https://coltonto.github.io/reactportfolio/
 
 ## Table of Contents 
   - [Project Description](#Description)
