@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# **Live link:** https://6434a9891cad9b415fb5724d--iridescent-madeleine-66041c.netlify.app 
+# **Live link:** https://darling-entremet-b6490e.netlify.app
+
+## GitHub Pages Link: https://coltonto.github.io
 
 ## Table of Contents 
   - [Project Description](#Description)
