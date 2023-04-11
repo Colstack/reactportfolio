@@ -10,7 +10,7 @@ const LinkRoutes = ({ personalDetails }) => {
 
   return (
     <Routes location={location} key={location.pathname}>
-      <Route path="/home" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
+      <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
       <Route
         path="/about"
         element={
