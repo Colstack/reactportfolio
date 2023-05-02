@@ -41,7 +41,7 @@
   },
   {
     "title": "Team Generator",
-    "image": "./projectImages/teamgenerator.png",
+    "image": "./projectImages/teamgeneratorpng.png",
     "description": "Front-end Team Generator application that creates team members based on CLI prompts, and uses JEST to test components.",
     "technologies": "JavaScript, Jest, HTML, CSS, Node, Express",
     "github": "https://github.com/ColtonTO/TeamGenerator",
