@@ -20,12 +20,12 @@
         "id": "2"
     },
     {
-        "title": "Fitness Tracker",
-        "image": "./projectImages/workout.png",
-        "description": "Tracker app that utilizes authentication for users to create accounts and post workout information onto a blog-like website",
-        "technologies": "JavaScript, Custom API, Node, Express",
-        "github": "https://github.com/ColtonTO/Fitness_tracker",
-        "deployed": "",
+        "title": "Takiwatanga",
+        "image": "./projectImages/takiwatanga.png",
+        "description": "Social networking app designed for people who know someone with special needs, or for people who have special needs, to safely communicate and share experiences with one another",
+        "technologies": "MongoDB, ApolloServers, GraphQL, ReactJS, JavaScript",
+        "github": "https://github.com/ColtonTO/Takiwatanga",
+        "deployed": "https://intense-cove-24151.herokuapp.com/",
         "bgcolor": "#712F79",
         "id": "2"
     },
@@ -41,7 +41,7 @@
   },
   {
     "title": "Team Generator",
-    "image": "./projectImages/teamgeneratorpng.png",
+    "image": "./projectImages/teamgenerator.png",
     "description": "Front-end Team Generator application that creates team members based on CLI prompts, and uses JEST to test components.",
     "technologies": "JavaScript, Jest, HTML, CSS, Node, Express",
     "github": "https://github.com/ColtonTO/TeamGenerator",
